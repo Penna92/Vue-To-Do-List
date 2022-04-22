@@ -21,7 +21,7 @@
 
 <body>
     <header class="text-center">
-        <h1 class="py-3">COSE DA VISITARE A ROMA</h1>
+        <h1 class="py-3">COSA VISITARE A ROMA</h1>
     </header>
     <div id="list" class="container p-5 text-white dark-opacity">
         <ol>
@@ -35,14 +35,13 @@
             </li>
         </ol>
         <div class="input-group mb-3">
-            <input @keyup.enter="aggiungi" type="text" class="form-control" placeholder="Attrazione"
+            <input @keyup.enter="aggiungi" type="text" class="form-control text-white" style="background-color: rgba(0,0,0,0.2);" placeholder="Attrazione"
                 aria-label="Attrazioni Roma" aria-describedby="button-addon2" v-model="nuovaAttrazione">
             <button @click="aggiungi" class="btn text-white btn-outline-secondary" type="button"
                 id="button-addon2">Aggiungi
                 attrazione</button>
             <button @click="removeLastElement" class="btn text-white btn-outline-secondary" type="button"
                 id="button-addon3">Rimuovi ultima attrazione</button>
-
         </div>
     </div>
     <script src="main.js"></script>
