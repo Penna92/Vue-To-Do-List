@@ -1,5 +1,7 @@
 body{
-    background: url(img/Roma.jpg)
+    background: url(img/Roma.jpg) center center no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .pointer {
