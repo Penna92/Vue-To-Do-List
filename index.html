@@ -25,7 +25,7 @@
     </header>
     <div id="list" class="container p-5 text-white dark-opacity">
         <ol>
-            <li v-if="roma.length == 0" class="text-uppercase">Non hai ancora inserito nessun ingrediente</li>
+            <li v-if="roma.length === 0" class="text-uppercase">Non hai ancora inserito nessuna attrazione</li>
             <li class="pointer text-uppercase my-3" :class="{'text-decoration-line-through': attrazione.check === true}"
                 v-for="(attrazione, index) in roma" :key="index">
                 <span @click="attrazione.check = !attrazione.check">
