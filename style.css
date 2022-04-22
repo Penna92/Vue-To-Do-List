@@ -1,7 +1,11 @@
-.bg-white {
-    background-color: white;
+body{
+    background: url(img/Roma.jpg)
 }
 
 .pointer {
     cursor: pointer;
+}
+
+.dark-opacity{
+    background-color: rgba(0, 0, 0, 0.8);
 }
